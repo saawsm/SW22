@@ -18,6 +18,10 @@ The original design of this module was based on the design by [WendyTeslaburger/
 - [ ] Review process
 - [ ] Add alternative BOM sources
 
+## Gerber & Bill of Materials (BOM)
+The Gerber zip file was generated with JLCPCB in mind (excluding assembly).
+Two BOM sources are available, the interactive HTML BOM located in `/bom` folder, or on [OctoPart](https://octopart.com/bom-tool/mcb9Iqj6).
+
 ## Theory of operation
 ### Output stage:
 <img align="right" width="350" src="doc/output_stage.png"/>
