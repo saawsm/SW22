@@ -11,8 +11,7 @@ Its been designed with the ESP-32 microcontroller in mind (hence SW-32), but sho
 
 ## Projects
 The project is split into multiple sub-projects all based around the easy-to-use module (SW-3211M)
-- [SW-3211M](/hardware/SW-3211M) - The easy-to-use module board. This could be considered the core project.
-- [SW-3221](/hardware/SW-3221) - A 2 channel e-stim board based around the module and the ESP-32.
+- [SW-3211M](/hardware/pcb/SW-3211M) - The easy-to-use module board. This could be considered the core project.
 
 Currently the only design available is the SW-3211M; a single channel module board. I plan on creating other boards in the future such as a dual/quad channel boards with an integrated ESP-32.
 
