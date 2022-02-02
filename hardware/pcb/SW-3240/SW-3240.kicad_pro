@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SW-3221.kicad_pro",
+    "filename": "SW-3240.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -322,20 +322,16 @@
       ""
     ],
     [
-      "8079120a-6a0b-4692-9252-2a72c6e5d144",
+      "fdb91db7-05ca-4264-96e5-fde8ba5aea3e",
+      "Channel Controller"
+    ],
+    [
+      "a85072ec-da87-4953-bc79-d42e425861b0",
       "Controller"
     ],
     [
-      "cc32be14-2e1f-4f65-8fbd-6d398fe1dc24",
-      "Channel A"
-    ],
-    [
-      "02e4e62a-b14e-4387-9e35-e5d0203f3fab",
-      "Channel B"
-    ],
-    [
-      "441df573-71ad-46b3-83d0-c66b63c8d735",
-      "Front Panel"
+      "9f6a279c-d204-43d9-83fc-a8bfbaad0480",
+      "Power Supply"
     ]
   ],
   "text_variables": {}
