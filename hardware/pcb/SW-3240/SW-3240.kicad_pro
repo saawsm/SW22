@@ -351,7 +351,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "SaawLib"
+    ]
   },
   "meta": {
     "filename": "SW-3240.kicad_pro",
@@ -437,16 +439,8 @@
       ""
     ],
     [
-      "fdb91db7-05ca-4264-96e5-fde8ba5aea3e",
-      "Channel Controller"
-    ],
-    [
-      "a85072ec-da87-4953-bc79-d42e425861b0",
-      "Controller"
-    ],
-    [
-      "9f6a279c-d204-43d9-83fc-a8bfbaad0480",
-      "Power Supply"
+      "d133e6fc-fed9-49ef-ab55-ed98b5058e52",
+      "PSU"
     ]
   ],
   "text_variables": {}
