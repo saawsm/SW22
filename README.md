@@ -10,8 +10,8 @@ Hopefully by recreating this output stage, the same e-stim experience can be ach
 The main board makes use of two ESP-32 modules. One for the main control/front panel IO and another for operating the output channels. 
 They have separate ESPFlash 2x3 headers for programming and serial communication. A JTAG 2x5 header provides debugging support for both chips by use of JTAG chaining.
 
-I chose to use two ESP-32 modules, instead of using a single one and additional I/O expanders and ADCs. 
-Since two ESP-32 modules work out cheaper, or roughly equal the price of the other option for one off assemblies. While also gaining additional functionality because microcontroller. 
+I chose to use two ESP-32 modules, instead of using additional I/O expanders and ADCs. 
+Since two ESP-32 modules work out cheaper or roughly equal to the price of the other option, for one off assemblies. While also gaining additional functionality because microcontroller. 
 
 Everything is routed directly into the microcontroller as separate signals (e.g. the microphone and stereo line-in audio, L and R channels). Nothing is hardwired, allowing firmware to customize how the front I/O works.
 For example instead of having a `MIC IN` you could change the functionality to act as a trigger for some action, etc.
