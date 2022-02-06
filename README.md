@@ -18,13 +18,13 @@ For example instead of having a `MIC IN` you could change the functionality to a
 
 ## Structure
 The project is split into multiple KiCad sub-projects:
-- [SW-3211M](/hardware/pcb/SW-3211M) - An easy-to-use module board. Made to be used with external MCU and isn't considered a part of the modular design.
-- [SW-3240](/hardware/pcb/SW-3240) - This is the core of the project, the main control board that can support up to four output channels.
+- [SW-3211M](/hardware/pcb/SW-3211M) [[Schematic](/hardware/pcb/SW-3211M/SW-3211M.pdf)] - An easy-to-use module board. Made to be used with external MCU and isn't considered a part of the modular design.
+- [SW-3240](/hardware/pcb/SW-3240) [[Schematic](/hardware/pcb/SW-3240/SW-3240.pdf)] - This is the core of the project, the main control board that can support up to four output channels.
 
 ### Modules
-- [SW-32MO10](/hardware/pcb/modules/output/SW-32MO10) - A single output module, equivalent to the [SW-3211M](/hardware/pcb/SW-3211M).
-- [SW-32MA1](/hardware/pcb/modules/audio/SW-32MA1) - A basic audio module, supports a mono microphone and stereo line-in.
-- [SW-32MC1](/hardware/pcb/modules/control/SW-32MC1) - A front panel control module.
+- [SW-32MO10](/hardware/pcb/modules/output/SW-32MO10) [[Schematic](/hardware/pcb/modules/output/SW-32MO10/SW-32MO10.pdf)] - A single output module, equivalent to the [SW-3211M](/hardware/pcb/SW-3211M).
+- [SW-32MA1](/hardware/pcb/modules/audio/SW-32MA1) [[Schematic](/hardware/pcb/modules/audio/SW-32MA1/SW-32MA1.pdf)] - A basic audio module, supports a mono microphone and stereo line-in.
+- [SW-32MC1](/hardware/pcb/modules/control/SW-32MC1) [[Schematic](/hardware/pcb/modules/control/SW-32MC1/SW-32MC1.pdf)] - A front panel control module.
 
 More detailed information about each can be found in the project specific READMEs.
 
