@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "SW-32MC1")
+    (title "SW-3240: Front Panel")
     (date "2022-02-02")
     (rev "1")
     (company "saawsm")
@@ -1850,7 +1850,6 @@
       )
     )
   )
-
 
   (junction (at 226.06 86.36) (diameter 0) (color 0 0 0 0)
     (uuid 03105e50-3e27-473a-830e-a36d830a45fc)

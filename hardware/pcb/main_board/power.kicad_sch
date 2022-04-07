@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "SW-3240: Power Supply")
+    (title "SW-3240: Main Board - Power Supply")
     (date "2022-04-07")
     (rev "1")
     (company "saawsm")

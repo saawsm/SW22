@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "SW-3240")
+    (title "SW-3240: Main Board")
     (date "2022-04-07")
     (rev "1")
     (company "saawsm")
-    (comment 1 "See connector FP_IO and front panel board (e.g. SW-32MC1).")
+    (comment 1 "See connector FP_IO and front panel board.")
     (comment 2 "Requires an I2C connection for control.")
     (comment 3 "The main board for the SW-3240.")
   )
