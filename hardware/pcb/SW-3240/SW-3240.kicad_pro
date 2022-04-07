@@ -33,7 +33,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.9,
+          "drill": 1.0,
           "height": 1.7,
           "width": 1.7
         },
@@ -363,7 +363,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.3,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -380,7 +380,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.3,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -400,7 +400,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.3,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -409,7 +409,8 @@
         "microvia_drill": 0.1,
         "name": "PWR 3.5A",
         "nets": [
-          "+12V"
+          "+12V",
+          "+9V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -420,7 +421,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.3,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -428,9 +429,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR 5A",
-        "nets": [
-          "+9V"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.7,

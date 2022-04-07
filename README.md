@@ -1,5 +1,5 @@
 # SW-32 - A modular ESP-32 e-stim device
-<img align="center" src="doc/SW-3211M.png"/>
+<img align="center" src="doc/images/SW-3211M.png"/>
 
 ## About
 The SW-32 is a modular e-stim unit, with the ESP-32 microcontroller at the core. It supports a max of 4 channels.
@@ -7,13 +7,9 @@ The SW-32 is a modular e-stim unit, with the ESP-32 microcontroller at the core.
 The modular output boards try to mimic the output stage of the well-known Erostec ET312 or better, the DIY reverse engineered MK-312. 
 Hopefully by recreating this output stage, the same e-stim experience can be achieved as those devices.
 
-The main board makes use of two ESP-32 modules. One for the main control/front panel IO and another for operating the output channels. 
-They have separate ESPFlash 2x3 headers for programming and serial communication. A JTAG 2x5 header provides debugging support for both chips by use of JTAG chaining.
+The main board makes use of an ATmega328PB for low-level control of the output boards. The front panel contains an ESP-32 that is for higher level processing such as front panel IO, Bluetooth, or audio.
 
-I chose to use two ESP-32 modules, instead of using additional I/O expanders and ADCs. 
-Since two ESP-32 modules work out cheaper or roughly equal to the price of the other option, for one off assemblies. While also gaining additional functionality because microcontroller. 
-
-Everything is routed directly into the microcontroller as separate signals (e.g. the microphone and stereo line-in audio, L and R channels). Nothing is hardwired, allowing firmware to customize how the front I/O works.
+Most connections are connected directly into the microcontroller as separate signals (e.g. the microphone and stereo line-in audio, L and R channels). Allowing firmware to customize how the front I/O works.
 For example instead of having a `MIC IN` you could change the functionality to act as a trigger for some action, etc.
 
 ## Structure

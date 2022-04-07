@@ -307,7 +307,7 @@
       )
     )
     (symbol "SaawLib:SW-32MA" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at 0 16.51 0)
+      (property "Reference" "J" (id 0) (at 0 16.51 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "SW-32MA" (id 1) (at 0 -16.51 0)

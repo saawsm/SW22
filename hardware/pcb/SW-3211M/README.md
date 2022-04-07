@@ -1,5 +1,5 @@
 # SW-3211M, a MK-312 style driver on a stick!
-<img align="center" src="../../../doc/SW-3211M.png">
+<img align="center" src="../../../doc/images/SW-3211M.png">
 
 ## About
 This board aims to bring the hardware of e-stim/EMS/TENS to an easy-to-use module. Think: Sparkfun, Adafruit, etc.
