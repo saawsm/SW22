@@ -15,3 +15,6 @@ It provides power (+3.3V, +5V, and +9V), battery charging, and low-level control
 ## Gerber & Bill of Materials (BOM)
 The Gerber zip file was generated with [JLCPCB](https://jlcpcb.com/) in mind (excluding assembly).
 Two BOM sources are available, the interactive HTML BOM located in `/bom` folder, and a CSV file.
+
+### Excluded BOM Items:
+- 0.1" break-away pin headers/sockets
