@@ -30,6 +30,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+!*/bom/*.csv
 
 # Gerber files (except zip files)
 */gerber/*
