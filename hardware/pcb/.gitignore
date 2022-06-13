@@ -33,5 +33,5 @@ fp-info-cache
 !*/bom/*.csv
 
 # Gerber files (except zip files)
-*/gerber/*
+**/gerber/*
 !*/gerber/*.zip

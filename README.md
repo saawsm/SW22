@@ -1,15 +1,15 @@
 # SW-3240 - A modular ESP-32 e-stim device
 
 ## About
-The SW-3240 is a modular e-stim unit, with the ESP-32 microcontroller at the core. It supports a max of 4 channels.
+The SW-3240 is a modular e-stim unit, with the ESP-32 microcontroller at the core. It supports a max of four output (stim) channels, and two AUX channels.
+Modular output boards try to mimic the output stage of the well-known Erostec ET312 or better, the DIY reverse engineered MK-312.
 
-The modular output boards try to mimic the output stage of the well-known Erostec ET312 or better, the DIY reverse engineered MK-312. 
-Hopefully by recreating this output stage, the same e-stim experience can be achieved as those devices.
+The main board makes use of an RP2040 microcontroller (Raspberry Pi Pico) for low-level control of the output boards. An ESP-32 takes care of the higher-level processing such as pattern/routine generation, Bluetooth, and user input/output.
 
-The main board makes use of an ATmega328PB for low-level control of the output boards. The front panel contains an ESP-32 that is for higher level processing such as front panel IO, Bluetooth, or audio.
+Most connections are connected directly into the microcontroller as separate signals. Allowing the firmware to customize how the board functions.
+For example, the AUX channels with the help of a plug-in module could accept line/microphone input, or an output channel could be rewired to handle TTL RS-232, etc.
 
-Most connections are connected directly into the microcontroller as separate signals (e.g. the microphone and stereo line-in audio, L and R channels). Allowing firmware to customize how the front I/O works.
-For example instead of having a `MIC IN` you could change the functionality to act as a trigger for some action, etc.
+Additionally, the SW-3240 was designed with the front panel/display being an optional accessory. Anything that can be achieved on the front panel, can be done via Bluetooth.
 
 ## Structure
 The project is split into multiple KiCad sub-projects:

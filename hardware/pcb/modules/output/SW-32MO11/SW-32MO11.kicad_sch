@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "SW-32MO10")
-    (date "2022-05-05")
+    (title "SW-32MO11")
+    (date "2022-06-10")
     (rev "1")
     (company "saawsm")
     (comment 4 "A single channel e-stim module driver board for the SW-32xx boards")
@@ -1474,14 +1474,14 @@
     (in_bom yes) (on_board yes)
     (uuid 0ff57116-dd3c-413e-b372-227f3cd30a98)
     (property "Reference" "Q1" (id 0) (at 130.81 25.4 90))
-    (property "Value" "IRF9Z24NPBF" (id 1) (at 130.81 27.94 90))
-    (property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" (id 2) (at 133.35 29.21 0)
+    (property "Value" "IRFR9024NTRPBF" (id 1) (at 130.81 27.94 90))
+    (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (id 2) (at 133.35 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 130.81 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "IRF9Z24NPBF" (id 4) (at 130.81 34.29 0)
+    (property "MPN" "IRFR9024NTRPBF" (id 4) (at 130.81 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 122573a0-3fd6-4448-b47f-407ff0e83075))
@@ -2249,7 +2249,7 @@
       (reference "NT1") (unit 1) (value "NetTie_2") (footprint "NetTie:NetTie-2_SMD_Pad0.5mm")
     )
     (path "/0ff57116-dd3c-413e-b372-227f3cd30a98"
-      (reference "Q1") (unit 1) (value "IRF9Z24NPBF") (footprint "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown")
+      (reference "Q1") (unit 1) (value "IRFR9024NTRPBF") (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2")
     )
     (path "/32e1aed6-e06d-402f-b13b-cddeae58cd61"
       (reference "Q2") (unit 1) (value "DMG3404L-7") (footprint "Package_TO_SOT_SMD:SOT-23")

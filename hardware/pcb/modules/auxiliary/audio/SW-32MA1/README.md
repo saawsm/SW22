@@ -1,13 +1,13 @@
-# SW-3240FP - Front Panel
-<img align="center" src="../../../doc/images/SW-3240FP.png">
+# SW-32MA1 - Audio Aux Module
+<img align="center" src="../../../doc/images/SW-32MA1.png">
 
 ## About
-This is the front panel board for the SW-3240. This board is simple and primarily routes the various controls to a connector.
+This is an auxiliary module for line-in and microphone audio input. AUX1 is line-in, AUX2 is microphone in.
 
 ## Status
 - [x] Create v1.0 Schematic
 - [x] Route v1.0 PCB
-- [x] Order v1.0 PCBs
+- [ ] Order v1.0 PCBs
 - [ ] Review 
 
 ## Gerber & Bill of Materials (BOM)

@@ -356,7 +356,7 @@
     ]
   },
   "meta": {
-    "filename": "SW-32MC1.kicad_pro",
+    "filename": "SW-3240FP.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -390,7 +390,8 @@
         "name": "PWR",
         "nets": [
           "+3V3",
-          "+5V"
+          "+5V",
+          "/BUZZER"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

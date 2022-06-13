@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 3.1,
+          "width": 2.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "items_not_allowed|238140000|104255000|9bc96448-1b46-48e5-9891-87273243f5c8|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|238140000|109105000|098a2091-ab1c-4980-bf45-10455c11a84d|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|241170000|103955000|4b034131-2c76-474f-b19e-1bf82b0a19ea|00000000-0000-0000-0000-000000000000",
+        "items_not_allowed|241170000|109405000|fbe75786-d74f-40c9-887b-31ab37707e3d|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|103660000|149860000|3558a516-b0e7-4372-8570-3ee5c30da150|55c8dae7-9cdc-47a5-85a2-a761ed9956ee",
+        "silk_over_copper|94460000|149860000|3558a516-b0e7-4372-8570-3ee5c30da150|e1328f87-8fbf-4852-aec5-a6e4d77e7324"
+      ],
       "meta": {
         "version": 2
       },
@@ -389,6 +396,7 @@
         "microvia_drill": 0.1,
         "name": "PWR",
         "nets": [
+          "+3V3",
           "+5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -499,7 +507,11 @@
     ],
     [
       "d133e6fc-fed9-49ef-ab55-ed98b5058e52",
-      "PSU"
+      "Power Supply"
+    ],
+    [
+      "b52cc17e-fd60-4b3c-b8d7-aae68c81bbe5",
+      "Output"
     ]
   ],
   "text_variables": {}

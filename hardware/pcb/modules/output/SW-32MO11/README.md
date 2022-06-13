@@ -1,8 +1,10 @@
-# SW-3240FP - Front Panel
-<img align="center" src="../../../doc/images/SW-3240FP.png">
+# SW-32MO11 - 1 Channel Output Module
+<img align="center" src="../../../doc/images/SW-32MO10.png">
 
 ## About
-This is the front panel board for the SW-3240. This board is simple and primarily routes the various controls to a connector.
+This is a single channel e-stim output module. It tries to mimic the output stage of the well-known Erostec ET312, or better, the MK-312.
+
+The original design of this module was based on the design by [WendyTeslaburger/WT-312](https://github.com/WendyTeslaburger/WT-312).
 
 ## Status
 - [x] Create v1.0 Schematic
