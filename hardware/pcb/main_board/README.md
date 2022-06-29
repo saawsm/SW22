@@ -1,8 +1,8 @@
-# SW-3240 - Main Board
-<img align="center" src="../../../doc/images/SW-3240.png">
+# SW-324 - Main Board
+<img align="center" src="../../../doc/images/SW-324.png">
 
 ## About
-This is a main board of SW-3240. It supports a max of four output (stim) channels, and two AUX channels.
+This is a main board of SW-324. It supports a max of four output (stim) channels, and two AUX channels.
 It provides power (+3.3V, +5V, and +9V), battery charging, low-level control of the output modules (via RP2040/Raspberry Pi Pico), and high-level control via an ESP-32.
 
 Each of the four output channels can be potentially repurposed for other uses (since each channel is a module board). Each channel has the following connections controlled by the RP2040/Pico:

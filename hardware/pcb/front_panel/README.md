@@ -1,8 +1,8 @@
-# SW-3240FP - Front Panel
-<img align="center" src="../../../doc/images/SW-3240FP.png">
+# SW-324FP - Front Panel
+<img align="center" src="../../../doc/images/SW-324FP.png">
 
 ## About
-This is the front panel board for the SW-3240. This board is simple and primarily routes the various controls to a connector.
+This is the front panel board for the SW-324.
 
 ## Status
 - [x] Create v1.0 Schematic

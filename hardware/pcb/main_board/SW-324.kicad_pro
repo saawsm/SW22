@@ -363,7 +363,7 @@
     ]
   },
   "meta": {
-    "filename": "SW-3240.kicad_pro",
+    "filename": "SW-324.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -511,7 +511,11 @@
     ],
     [
       "b52cc17e-fd60-4b3c-b8d7-aae68c81bbe5",
-      "Output"
+      "Controller"
+    ],
+    [
+      "a8c6e632-c74c-4e3e-b459-866ca082d799",
+      "Comms Controller"
     ]
   ],
   "text_variables": {}
