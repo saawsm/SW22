@@ -1,25 +1,22 @@
-#include <Arduino.h>
+/**
+ * The main file for the main processor (Pico) that handles low-level control over the output channels.
+ */
+#include <hardware/adc.h>
+#include <hardware/i2c.h>
+#include <hardware/pio.h>
+#include <hardware/pwm.h>
+#include <hardware/spi.h>
+#include <inttypes.h>
+#include <pico/multicore.h>
+#include <pico/stdlib.h>
+#include <stdio.h>
 
-#include <BLEDevice.h>
-#include <BLEUtils.h>
-#include <BLEServer.h>
+int main(void) {
+    stdio_init_all();
 
-#include "WTChannel.h"
+    printf("Init...\n");
 
-// Warning: Untested (theoretical) code!!!!
+    adc_init();
 
-WTChannel channel1(0, 0, 0, 0);
-
-void setup() {
-    channel1.init();
-
-    channel1.setWaveform(150, 200, 0, 500, 0.3);
-}
-
-void loop() {
-    unsigned long time = micros();
-
-    channel1.update(time);
-
-
+    return 0;
 }
