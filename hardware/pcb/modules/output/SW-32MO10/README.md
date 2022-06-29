@@ -7,9 +7,9 @@ This is a single channel e-stim output module. It tries to mimic the output stag
 The original design of this module was based on the design by [WendyTeslaburger/WT-312](https://github.com/WendyTeslaburger/WT-312).
 
 ## Status
-- [x] Create v1.0 Schematic
-- [x] Route v1.0 PCB
-- [x] Order v1.0 PCBs
+- [x] Create v1.1 Schematic
+- [ ] Route v1.1 PCB
+- [ ] Order v1.1 PCBs
 - [ ] Review 
 
 ## Gerber & Bill of Materials (BOM)

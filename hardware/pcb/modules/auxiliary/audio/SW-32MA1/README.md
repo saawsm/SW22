@@ -6,7 +6,7 @@ This is an auxiliary module for line-in and microphone audio input. AUX1 is line
 
 ## Status
 - [x] Create v1.0 Schematic
-- [x] Route v1.0 PCB
+- [ ] Route v1.0 PCB
 - [ ] Order v1.0 PCBs
 - [ ] Review 
 

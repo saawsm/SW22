@@ -8,8 +8,8 @@ The original design of this module was based on the design by [WendyTeslaburger/
 
 ## Status
 - [x] Create v1.0 Schematic
-- [x] Route v1.0 PCB
-- [x] Order v1.0 PCBs
+- [ ] Route v1.0 PCB
+- [ ] Order v1.0 PCBs
 - [ ] Review 
 
 ## Gerber & Bill of Materials (BOM)

@@ -2,13 +2,13 @@
 <img align="center" src="../../../doc/images/SW-324FP.png">
 
 ## About
-This is the front panel board for the SW-324.
+This is the front panel board for the SW-324. It connects via the I2C expansion connector on the main board.
 
 ## Status
-- [x] Create v1.0 Schematic
-- [x] Route v1.0 PCB
-- [x] Order v1.0 PCBs
-- [ ] Review 
+- [x] Create v1.1 Schematic
+- [ ] Route v1.1 PCB
+- [ ] Order v1.1 PCBs
+- [ ] Review
 
 ## Gerber & Bill of Materials (BOM)
 The Gerber zip file was generated with [JLCPCB](https://jlcpcb.com/) in mind (excluding assembly).
