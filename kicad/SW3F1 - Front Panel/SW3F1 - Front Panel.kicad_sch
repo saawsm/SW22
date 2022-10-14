@@ -9,7 +9,7 @@
     (date "2022-08-07")
     (rev "1")
     (company "saawsm")
-    (comment 1 "1x rotary encoder, 4x pots, 4x push buttons, 1x buzzer, 8x RGB LEDs")
+    (comment 1 "1x rotary encoder, 4x pots, 4x push buttons, 1x buzzer, 6x RGB LEDs")
     (comment 2 "Provides the following: ")
     (comment 4 "An I2C front panel designed for the SW32.")
   )

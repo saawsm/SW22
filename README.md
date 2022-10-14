@@ -35,16 +35,16 @@ The SW32 consists of following PCBs:
 * Output Modules - Generates the E-Stim for each channel. A module per channel, controlled by the driver board. 
 * Expansion Module (Optional) - Allows advanced configuration of Aux channels (e.g. Audio+Microphone)
 
-The main reason for having modular PCBs is for flexibility and long term cost saving. Most of the cost and time that is involved in the project is the firmware, case, display, controls, etc. So being able to reuse parts when changing the design (e.g. new output modules, etc) should help keep time and cost down.
+The main reason for having modular PCBs is for flexibility and long term cost saving. Most of the cost and time that is involved in the project is the firmware, case, display, controls, etc. So being able to reuse parts when changing the design (e.g. new output modules, etc) should help keep time and cost down. Having a smaller driver board allows for a cheaper solder paste stencil.
 
-Additionally, the SW32 was designed with the front panel and display being optional accessories. Anything that can be achieved on the front panel, can be done via Bluetooth or WiFi (e.g. Pico W). The driver board was designed to work as a standalone module (Think: Sparkfun, Adafruit, etc.) using the [swx](https://github.com/saawsm/swx) firmware/library.
+Additionally, the SW32 was designed with the front panel and display being optional accessories. Anything that can be achieved on the front panel, can be done via Bluetooth or WiFi (e.g. Pico W). The driver board was designed to work as a standalone module (Think: Sparkfun, Adafruit, etc.) using the [swx](https://github.com/saawsm/swx) driver firmware.
 
 ## PCB Build Notes
-Note: The majority of this build is SMT. I have tried to keep parts large enough (0603 and above) for manual pick and place. However, for a few components no alternative was available (e.g. Driver board DAC/ADC use TSSOP package)
+The majority of this build is SMT. I have tried to keep parts large enough (0603 and above) for manual pick and place. However, for a few components no alternative was available (e.g. Driver board DAC/ADC use TSSOP package)
 
 Most SMD components used are available from Mouser and LCSC. Front panel components being mostly available at places that aren't LCSC (pots, encoders, audio jacks, etc).
 
-Some components have a thermal/hidden pads that will require a reflow oven or using hot air reflow soldering.
+Some components have a thermal pad that will require a reflow oven or using hot air reflow soldering.
 
 ## [Schematics](schematics/)
 
