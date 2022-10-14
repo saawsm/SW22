@@ -40,7 +40,7 @@ The main reason for having modular PCBs is for flexibility and long term cost sa
 Additionally, the SW32 was designed with the front panel and display being optional accessories. Anything that can be achieved on the front panel, can be done via Bluetooth or WiFi (e.g. Pico W). The driver board was designed to work as a standalone module (Think: Sparkfun, Adafruit, etc.) using the [swx](https://github.com/saawsm/swx) driver firmware.
 
 ## PCB Build Notes
-The majority of this build is SMT. I have tried to keep parts large enough (0603 and above) for manual pick and place. However, for a few components no alternative was available (e.g. Driver board DAC/ADC use TSSOP package)
+The majority of this build is SMT. I have tried to keep parts large enough (0603 and above) for manual pick and place. However, for a few components no alternative was available (e.g. Driver board uses MSOP/VSSOP packages)
 
 Most SMD components used are available from Mouser and LCSC. Front panel components being mostly available at places that aren't LCSC (pots, encoders, audio jacks, etc).
 

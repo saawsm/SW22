@@ -16,7 +16,6 @@
 "J6","1","Channel 3","Dual Channel Output Driver Module","","",""
 "J7","1","Channel 4","Dual Channel Output Driver Module","","",""
 "J8","1","CH_OUT","Generic connector, single row, 01x15, script generated (kicad-library-utils/schlib/autogen/connector/)","","",""
-"JP1","1","SPWR","Solder Jumper, 2-pole, open","","",""
 "L1","1","15uH","Inductor with ferrite core","SRR1260-150M","652-SRR1260-150M","C2041333"
 "R1, R2","2","4.7K","Resistor","RC0603FR-074K7L","603-RC0603FR-074K7L","C99782"
 "R3, R6, R7","3","10K","Resistor","RC0603FR-0710KL","603-RC0603FR-0710KL","C98220"
