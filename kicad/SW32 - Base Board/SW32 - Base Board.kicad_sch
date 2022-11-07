@@ -5526,7 +5526,7 @@
     (property "Reference" "J15" (id 0) (at 229.87 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DRV_PWR" (id 1) (at 229.87 81.2799 0)
+    (property "Value" "PWR" (id 1) (at 229.87 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (id 2) (at 227.33 78.74 0)
@@ -7016,7 +7016,7 @@
       (reference "J14") (unit 1) (value "DRV") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")
     )
     (path "/87fdb044-25d8-48cc-91e5-eb80eec8ec54"
-      (reference "J15") (unit 1) (value "DRV_PWR") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
+      (reference "J15") (unit 1) (value "PWR") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical")
     )
     (path "/c639e587-236c-4b6c-9f3f-90664373331f"
       (reference "J16") (unit 1) (value "CH_IN") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x15_P2.54mm_Vertical")

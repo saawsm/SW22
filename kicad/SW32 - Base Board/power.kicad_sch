@@ -3005,7 +3005,7 @@
     (property "Footprint" "SaawLib:500SSP1S2M6QEA" (id 2) (at 207.01 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 207.01 40.64 0)
+    (property "Datasheet" "https://mouser.com/datasheet/2/140/ESCH_S_A0000009760_1-2545063.pdf" (id 3) (at 207.01 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MOUSER" "612-500-A261" (id 4) (at 207.01 40.64 0)
