@@ -4,7 +4,7 @@
 
 ---
 
-*This project is a work in-progress (primarily due to part shortages). Large changes to the design might occur, without warning. Build PCBs at your own risk..*
+*This project is a work in-progress. Changes to the design might occur. Order PCBs at your own risk..*
 
 ---
 
@@ -16,7 +16,7 @@ An <abbr title="ESP32-WROOM-32">ESP32</abbr> module is used for high level contr
 
 Compared to the MK312-BT, it has two extra output channels, four auxiliary inputs, and four triggers. 
 
-## Key Features
+## Features
 * Bluetooth A2DP*
 * RS232 front panel serial
 * 2x TRS 3.5mm Aux channels with expansion board support (e.g. Stereo Audio + Mono Microphone, RS232 Remote)
@@ -25,7 +25,10 @@ Compared to the MK312-BT, it has two extra output channels, four auxiliary input
 * Modular output drivers per channel (Think: Sparkfun, Adafruit, etc.) incl. modular driver board.
 * Individual channel sensing via quad 12-bit ADC
 * 1.8" Color TFT display
+* Support for an internal 0.96" I2C OLED display (e.g. debugging/testing)
 * 256kb EEPROM for configuration
+* Battery voltage monitoring
+* Charge sense (Barrel jack voltage monitoring)
 
 ## Overview
 The SW32 consists of following PCBs:
@@ -40,7 +43,7 @@ The main reason for having modular PCBs is for flexibility and long term cost sa
 
 Additionally, the SW32 was designed with the front panel and display being optional accessories. Anything that can be achieved on the front panel, can be done via Bluetooth or WiFi. The driver board was designed to work as a standalone module (Think: Sparkfun, Adafruit, etc.) using the [swx](https://github.com/saawsm/swx) driver firmware.
 
-## PCB Build Notes
+## Build Notes
 The majority of this build is SMT. I have tried to keep parts large enough (0603 and above) for manual pick and place. However, for a few components, no alternative was available (e.g. Driver board uses MSOP/VSSOP packages).
 
 Most SMD components used are available from Mouser and LCSC. Front panel components being mostly available at places that aren't LCSC (pots, encoders, audio jacks, etc).
@@ -53,11 +56,10 @@ Some components have a thermal pad that will require a reflow oven or using hot 
 Gerbers are created for use with JLCPCB. P&P POS files untested/missing (since I assemble the PCBs myself).
 
 ## Firmware
-- [Precompiled Firmware](https://github.com/saawsm/SW32/releases/latest)
+- [Base Board Firmware](https://github.com/saawsm/swef/releases/latest)
+- [Driver Board Firmware](https://github.com/saawsm/swx/releases/latest)
 
-The firmware is open source and written in C++ using the pico-sdk. You can find the source code in the [swef](https://github.com/saawsm/swef) repository.
-
-Precompiled firmware is available on the release page of this repository.
+The firmware is open source and written in C/C++. You can find the source code in the [swef](https://github.com/saawsm/swef) and [swx](https://github.com/saawsm/swx) repositories.
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, available at
