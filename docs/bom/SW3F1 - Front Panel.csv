@@ -19,7 +19,7 @@
 "RV2","1","CH4","Potentiometer","PTV09A-40xxS-B103 ","",""
 "RV3","1","CH2","Potentiometer","PTV09A-40xxS-B103 ","",""
 "RV4","1","CH3","Potentiometer","PTV09A-40xxS-B103 ","",""
-"SW1","1","PEC11R-42xxK-S0024","Rotary encoder, dual channel, incremental quadrate outputs, with switch","PEC11R-42xxK-S0024","",""
+"SW1","1","PEC11R-4215K-S0024","Rotary encoder, dual channel, incremental quadrate outputs, with switch","PEC11R-4215K-S0024","",""
 "SW2","1","BTN1","Push button switch, generic, two pins","D6C90F2LFS","611-D6C90F2LFS",""
 "SW3","1","BTN2","Push button switch, generic, two pins","D6C90F2LFS","611-D6C90F2LFS",""
 "SW4","1","BTN3","Push button switch, generic, two pins","D6C90F2LFS","611-D6C90F2LFS",""
