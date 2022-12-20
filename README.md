@@ -32,7 +32,7 @@ Compared to the MK312-BT, it has two extra output channels, four auxiliary input
 
 ## Overview
 The SW32 consists of following PCBs:
-* Front Panel Cover - No traces, just the cosmetic front panel with text. Could be 3D printed / CNC routed.
+* Front Panel Cover - No traces, just the cosmetic front panel with text. Could be 3D printed or laser cut.
 * Front Panel - I2C based expansion board with 4x POTs with associated ADC, 1x rotary encoder, 4x tactile buttons, 1x buzzer, and 8x addressable RGB LEDs.
 * Base Board - Provides system power, battery charging, expansion, Bluetooth, front panel interface, and general control.
 * Driver Board - Provides low-level control over channel output modules.
