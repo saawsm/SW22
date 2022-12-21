@@ -2,7 +2,7 @@
 "BZ1","1","Buzzer","Buzzer, polarized","IE122303-1","497-IE122303-1",""
 "C1, C2, C4, C5, C6, C7, C8, C9, C10, C11","10","100nF","Unpolarized capacitor, small symbol","CL10B104KB8NNNC","187-CL10B104KB8NNNC","C1591"
 "C3","1","10uF","Unpolarized capacitor, small symbol","CL10A106MA8NRNC","187-CL10A106MA8NRNC","C96446"
-"D1","1","MBR120","Schottky diode","MBR120ESFT1G","863-MBR120ESFT1G","C236132"
+"D1","1","SS24FL","Schottky diode","SS24FL","512-SS24FL","C894433"
 "D2","1","AUX1","","WS2812D-F5","","C190565"
 "D3","1","AUX2","","WS2812D-F5","","C190565"
 "D4","1","TRIG1","","WS2812D-F5","","C190565"

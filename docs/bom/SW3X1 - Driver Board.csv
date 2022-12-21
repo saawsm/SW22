@@ -6,7 +6,7 @@
 "C6","1","180uF","Polarized capacitor","16SVP180MX","667-16SVP180MX","C236288"
 "D1","1","OK","Light emitting diode","150060BS75000","710-150060BS75000",""
 "D2","1","SSB44-E3","Schottky diode","SSB44-E3/52T","625-SSB44-E3","C466999"
-"D3","1","DSS14","Schottky diode","","241-SS1040FLR100001","C511864"
+"D3","1","SS24FL","Schottky diode","SS24FL","512-SS24FL","C894433"
 "D4","1","CH_PWR","Light emitting diode","150060BS75000","710-150060BS75000",""
 "J1","1","SERIAL (3v3)","Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)","","",""
 "J2","1","PWR","Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)","","",""

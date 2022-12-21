@@ -6,7 +6,7 @@
 
   (title_block
     (title "SW3X1 - Driver Board")
-    (date "2022-08-19")
+    (date "2022-12-21")
     (rev "1")
     (company "saawsm")
     (comment 2 "IO0 and IO1 are I2C capable.")
@@ -2038,6 +2038,7 @@
       )
     )
   )
+
 
   (junction (at 134.62 88.9) (diameter 0) (color 0 0 0 0)
     (uuid 06727fd9-1345-4258-95ca-621240ed1956)
@@ -4400,17 +4401,20 @@
     (in_bom yes) (on_board yes)
     (uuid 6fd387ea-d867-4148-9535-8d3a66d97fd9)
     (property "Reference" "D3" (id 0) (at 144.78 82.55 0))
-    (property "Value" "DSS14" (id 1) (at 144.78 85.09 0))
+    (property "Value" "SS24FL" (id 1) (at 144.78 85.09 0))
     (property "Footprint" "Diode_SMD:D_SOD-123F" (id 2) (at 144.78 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C511864" (id 4) (at 144.78 88.9 0)
+    (property "LCSC" "C894433" (id 4) (at 144.78 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MOUSER" "241-SS1040FLR100001" (id 5) (at 144.78 88.9 0)
+    (property "MOUSER" "512-SS24FL" (id 5) (at 144.78 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "SS24FL" (id 6) (at 144.78 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5d24853d-d8d1-4ed1-bddb-a78a26887b92))
@@ -5734,7 +5738,7 @@
       (reference "D2") (unit 1) (value "SSB44-E3") (footprint "Diode_SMD:D_SMB")
     )
     (path "/6fd387ea-d867-4148-9535-8d3a66d97fd9"
-      (reference "D3") (unit 1) (value "DSS14") (footprint "Diode_SMD:D_SOD-123F")
+      (reference "D3") (unit 1) (value "SS24FL") (footprint "Diode_SMD:D_SOD-123F")
     )
     (path "/92dfd66b-264f-4156-9a98-4fda7049ad7f"
       (reference "D4") (unit 1) (value "CH_PWR") (footprint "LED_SMD:LED_0603_1608Metric")
