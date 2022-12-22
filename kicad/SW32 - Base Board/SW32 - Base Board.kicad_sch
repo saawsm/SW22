@@ -7096,6 +7096,9 @@
     (path "/40e7d3a9-2ad7-4528-987a-025033f4226e"
       (reference "#PWR087") (unit 1) (value "+3.3V") (footprint "")
     )
+    (path "/1fc0f821-09c9-4592-a0c9-f36dcb7dfd2e/89785357-9ea1-41bf-a119-c2d319cf477d"
+      (reference "#PWR088") (unit 1) (value "GND") (footprint "")
+    )
     (path "/816de776-60d3-4c41-977e-c891f48668ee"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -7158,6 +7161,9 @@
     )
     (path "/1fc0f821-09c9-4592-a0c9-f36dcb7dfd2e/a8ab53c1-5aec-446d-a691-720ade6d0f42"
       (reference "D3") (unit 1) (value "SSB44-E3") (footprint "Diode_SMD:D_SMB")
+    )
+    (path "/1fc0f821-09c9-4592-a0c9-f36dcb7dfd2e/41fb0ef4-be6a-4990-ba2d-595be46493e4"
+      (reference "D4") (unit 1) (value "PWR") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/1fc0f821-09c9-4592-a0c9-f36dcb7dfd2e/6b12f8b3-f953-47ff-b708-b7278e1beade"
       (reference "F1") (unit 1) (value "2A") (footprint "Fuse:Fuse_Littelfuse-LVR200")
@@ -7329,6 +7335,9 @@
     )
     (path "/7f88e073-1b6f-4fb2-a213-9e397d46828c"
       (reference "R19") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/1fc0f821-09c9-4592-a0c9-f36dcb7dfd2e/d45d21d7-9a37-4207-acf8-473764416488"
+      (reference "R20") (unit 1) (value "1.5K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/1fc0f821-09c9-4592-a0c9-f36dcb7dfd2e/fbfc0fb1-c274-4880-83e1-d3b8fe93f28f"
       (reference "SW1") (unit 1) (value "PWR") (footprint "SaawLib:500SSP1S2M6QEA")
