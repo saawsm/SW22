@@ -4,7 +4,7 @@
 "C5, C9","2","100nF","Unpolarized capacitor","CL10B104KB8NNWC","",""
 "C8","1","1uF","Unpolarized capacitor","CL10B105KA8NFNC","",""
 "D1","1","SML4746-E3/61","Zener diode","SML4746-E3/61","",""
-"D2, D3","2","DSS14UTR","Schottky diode","DSS14U","",""
+"D2, D3","2","SS24FL","Schottky diode","SS24FL","512-SS24FL","C894433"
 "FB1","1","100","Ferrite bead, small symbol","BLM18KG101TN1D","",""
 "Q1","1","NTF2955T1G","P-MOSFET transistor, gate/drain/source","NTF2955T1G","",""
 "Q2, Q3","2","DMN2041L","6.4A Id, 20V Vds, N-Channel MOSFET, SOT-23","DMN2041L","",""
