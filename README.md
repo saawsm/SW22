@@ -1,6 +1,6 @@
-# SW32 - A modular E-Stim
+# SW22 - A modular E-Stim
 
-![SW32](docs/images/SW32.png)
+![SW22](docs/images/SW22.png)
 
 ---
 
@@ -9,7 +9,7 @@
 ---
 
 ## About
-The SW32 is a modular E-Stim box based on the [ZC95](https://github.com/CrashOverride85/zc95) and the [WT-312](https://github.com/WendyTeslaburger/WT-312). 
+The SW22 is a modular E-Stim box based on the [ZC95](https://github.com/CrashOverride85/zc95) and the [WT-312](https://github.com/WendyTeslaburger/WT-312). 
 It has a similar form factor and output design to the MK312-BT (which in turn is a clone of the ET-312B).
 
 An <abbr title="ESP32-WROOM-32">ESP32</abbr> module is used for high level control (front panel controls, display, Bluetooth audio, etc) of the device, while an RP2040 microcontroller (RPi Pico) is used as a co-processor for pulse/routine generation (taking advantage of [PIO](https://raspberrypi.github.io/pico-sdk-doxygen/group__hardware__pio.html#details)). The firmware is open source and written in C++.
@@ -31,7 +31,7 @@ Compared to the MK312-BT, it has two extra output channels, four auxiliary input
 * Charge sense (Barrel jack voltage monitoring)
 
 ## Overview
-The SW32 consists of following PCBs:
+The SW22 consists of following PCBs:
 * Front Panel Cover - No traces, just the cosmetic front panel with text. Could be 3D printed or laser cut.
 * Front Panel - I2C based expansion board with 4x POTs with associated ADC, 1x rotary encoder, 4x tactile buttons, 1x buzzer, and 8x addressable RGB LEDs.
 * Base Board - Provides system power, battery charging, expansion, Bluetooth, front panel interface, and general control.
@@ -41,7 +41,7 @@ The SW32 consists of following PCBs:
 
 The main reason for having modular PCBs is for flexibility and long term cost saving. Most of the cost and time that is involved in the project is the firmware, case, display, controls, etc. So being able to reuse parts when changing the design (e.g. new output modules, driver board, etc) should help keep time and cost down.
 
-Additionally, the SW32 was designed with the front panel and display being optional accessories. Anything that can be achieved on the front panel, can be done via Bluetooth/WiFi. The driver board can be used as a standalone module (Think: Sparkfun, Adafruit, etc.).
+Additionally, the SW22 was designed with the front panel and display being optional accessories. Anything that can be achieved on the front panel, can be done via Bluetooth/WiFi. The driver board can be used as a standalone module (Think: Sparkfun, Adafruit, etc.).
 
 ## Build Notes
 The majority of this build is SMT. I have tried to keep parts large enough (0603 and above) for manual pick and place. However, for a few components, no alternative was available (e.g. Driver board uses MSOP/VSSOP packages).
@@ -56,7 +56,7 @@ Some components have a thermal pad that will require a reflow oven or using hot 
 Gerbers are created for use with JLCPCB. P&P POS files untested/missing (since I assemble the PCBs myself).
 
 ## Firmware
-The firmware is open source and written in C/C++. You can find the source code in the [swef](https://github.com/saawsm/swef) and [swx](https://github.com/saawsm/swx) repositories.  Precompiled firmware for the SW32 can be found in the [releases](https://github.com/saawsm/SW32/releases) (for the absolute latest firmware, compile it from source).  
+The firmware is open source and written in C/C++. You can find the source code in the [swef](https://github.com/saawsm/swef) and [swx](https://github.com/saawsm/swx) repositories.  Precompiled firmware for the SW22 can be found in the [releases](https://github.com/saawsm/SW22/releases) (for the absolute latest firmware, compile it from source).  
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, available at
