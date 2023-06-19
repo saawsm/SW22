@@ -12,7 +12,7 @@
 The SW22 is a modular E-Stim box based on the [ZC95](https://github.com/CrashOverride85/zc95) and the [WT-312](https://github.com/WendyTeslaburger/WT-312). 
 It has a similar form factor and output design to the MK312-BT (which in turn is a clone of the ET-312B).
 
-An <abbr title="ESP32-WROOM-32">ESP32</abbr> module is used for high level control (front panel controls, display, Bluetooth audio, etc) of the device, while an RP2040 microcontroller (RPi Pico) is used as a co-processor for pulse/routine generation (taking advantage of [PIO](https://raspberrypi.github.io/pico-sdk-doxygen/group__hardware__pio.html#details)). The firmware is open source and written in C++.
+An <abbr title="ESP32-WROOM-32">ESP32</abbr> module is used for high level control (front panel controls, display, Bluetooth audio, etc) of the device, while an RP2040 microcontroller (RPi Pico) is used as a co-processor for pulse/routine generation (taking advantage of [PIO](https://raspberrypi.github.io/pico-sdk-doxygen/group__hardware__pio.html#details)). The firmware is open source and written in C.
 
 Compared to the MK312-BT, it has two extra output channels, four auxiliary inputs, and four triggers. 
 
@@ -56,7 +56,7 @@ Some components have a thermal pad that will require a reflow oven or using hot 
 Gerbers are created for use with JLCPCB. P&P POS files untested/missing (since I assemble the PCBs myself).
 
 ## Firmware
-The firmware is open source and written in C/C++. You can find the source code in the [swef](https://github.com/saawsm/swef) and [swx](https://github.com/saawsm/swx) repositories.  Precompiled firmware for the SW22 can be found in the [releases](https://github.com/saawsm/SW22/releases) (for the absolute latest firmware, compile it from source).  
+The firmware is open source and written in C. You can find the source code in the [swef](https://github.com/saawsm/swef) and [swx](https://github.com/saawsm/swx) repositories.  Precompiled firmware for the SW22 can be found in the [releases](https://github.com/saawsm/SW22/releases) (for the absolute latest firmware, compile it from source).  
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, available at
