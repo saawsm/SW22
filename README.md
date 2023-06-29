@@ -57,7 +57,3 @@ Gerbers are created for use with JLCPCB. P&P POS files untested/missing (since I
 
 ## Firmware
 The firmware is open source and written in C. You can find the source code in the [swef](https://github.com/saawsm/swef) and [swx](https://github.com/saawsm/swx) repositories.  Precompiled firmware for the SW22 can be found in the [releases](https://github.com/saawsm/SW22/releases) (for the absolute latest firmware, compile it from source).  
-
-## License
-This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License, available at
-[http://creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/).
