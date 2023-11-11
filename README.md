@@ -56,4 +56,8 @@ Some components have a thermal pad that will require a reflow oven or using hot 
 Gerbers are created for use with JLCPCB. P&P POS files untested/missing (since I assemble the PCBs myself).
 
 ## Firmware
-The firmware is open source and written in C. You can find the source code in the [swef](https://github.com/saawsm/swef) and [swx](https://github.com/saawsm/swx) repositories.  Precompiled firmware for the SW22 can be found in the [releases](https://github.com/saawsm/SW22/releases) (for the absolute latest firmware, compile it from source).  
+The firmware is open source and written in C. You can find the source code in the [swef](https://github.com/saawsm/swef) and [swx](https://github.com/saawsm/swx) repositories.
+
+`swef` and `swx` don't support SPI used by the SW22 for connection between the base and driver boards. Basic functionality requires adding additional bodge wires (SDA and SCL) between the base and driver boards.
+
+This change was done to simplify communications and to prepare for the successor [SW32](https://github.com/saawsm/SW32) box.
