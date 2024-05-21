@@ -3,6 +3,7 @@
 ![SW22](docs/images/SW22.png)
 
 ---
+**The SW22 is deprecated. See the [SW32 E-Stim](https://github.com/saawsm/SW32) for a better alternative.**
 
 *This project is a work in-progress. Changes to the design might occur. Order PCBs at your own risk..*
 
